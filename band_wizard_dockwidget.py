@@ -8,8 +8,8 @@
                              -------------------
         begin                : 2024-01-18
         git sha              : $Format:%H$
-        copyright            : (C) 2024 by Bishwajit Sharma
-        email                : bishwajitsharma@gmail.com
+        copyright            : (C) 2024 by ImagineerBS
+        email                : bscreative21@gmail.com
  ***************************************************************************/
 
 /***************************************************************************
@@ -28,10 +28,6 @@ from qgis.PyQt import QtGui, QtWidgets, uic
 from qgis.PyQt.QtCore import pyqtSignal
 
 from .bandwizwidget import BandWizWidget
-
-# FORM_CLASS, _ = uic.loadUiType(os.path.join(
-#     os.path.dirname(__file__), 'band_wizard_dockwidget_base.ui'))
-
 
 class BandWizDockWidget(QtWidgets.QDockWidget):
 
