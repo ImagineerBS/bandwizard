@@ -8,8 +8,8 @@
                               -------------------
         begin                : 2024-01-18
         git sha              : $Format:%H$
-        copyright            : (C) 2024 by Bishwajit Sharma
-        email                : bishwajitsharma@gmail.com
+        copyright            : (C) 2024 by ImagineerBS
+        email                : bscreative21@gmail.com
  ***************************************************************************/
 
 /***************************************************************************
@@ -25,7 +25,6 @@ from qgis.PyQt.QtCore import QSettings, QTranslator, QCoreApplication, Qt
 from qgis.PyQt.QtGui import QIcon
 from qgis.PyQt.QtWidgets import QAction
 # Initialize Qt resources from file resources.py
-# from .resources import *
 
 # Import the code for the DockWidget
 from .band_wizard_dockwidget import BandWizDockWidget
