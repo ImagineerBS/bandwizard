@@ -13,7 +13,7 @@ The Plugin can identify rasters and ignores vectors. It can find the number of b
 
 How to install:
 * Download the git as zip file.
-* Use the menu: ``Plugins`` > ``Mange and install plugins``
+* Use the menu: ``Plugins`` > ``Manage and install plugins``
 * On the options available on the left, choose ``Install from ZIP file``
 * Browse and select the downloaded bandwizard.zip file
 * After installation, the ``Raster`` menu should show the ``BandWizard`` option
