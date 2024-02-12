@@ -222,4 +222,7 @@ class BandWizWidget(QtWidgets.QWidget):
         print("showLayerProperties")
         if self.curLayer is None:
             return
-        self.iface.showLayerProperties(self.curLayer,'mOptsPage_Style')
+        try:
+            self.iface.showLayerProperties(self.curLayer,'mOptsPage_Style')
+        except:
+            self.iface.showLayerProperties(self.curLayer)
