@@ -2,7 +2,9 @@
 
 This is a python based QGIS plugin for visualizing raster bands and changing their order. 
 
-Tested on Ubuntu 20.04, QGIS 3.22 Desktop.
+Tested on 
+* Ubuntu 20.04: QGIS 3.22, 3.24 
+* Windows 10: QGIS 3.16
 
 
 ![pluginHelp1](https://github.com/ImagineerBS/bandwizard/assets/157699541/b74d36b2-a031-4c9d-adae-6ebbe4aca526)
